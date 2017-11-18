@@ -3,30 +3,21 @@
 
     <item
         is-multidex="false"
+        jar="C:\Users\Виктор\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.2\3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf\gson-2.8.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf">
+        <dex dex="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\pre-dexed\debug\gson-2.8.2_a3c930bd365b08729e0fe9d1cd5d5ae19d356c1c.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Виктор\.android\build-cache\145eeedba32a03ba23ab0a8598db2222769fcabe\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="05e8375b2ec26e4508b2a745d5a0623ba95f9b49">
         <dex dex="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\pre-dexed\debug\classes_b50bf6fda273489f8e7a522c4a69299aefdc20a1.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ca1f69798e22c181a2ef581f36515fb8ae092441">
-        <dex dex="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c2cd2431679e66ae01429c68b7f5ffa7177f12f7\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Виктор\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3\5fc52c41ef0239d1093a1eb7c3697036183677ce\gson-2.3.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
-        <dex dex="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\pre-dexed\debug\gson-2.3_4b623155d871ef67beeaa053634deb3db8135ed5.jar" />
     </item>
     <item
         is-multidex="false"
@@ -48,12 +39,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Виктор\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.2\3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf\gson-2.8.2.jar"
+        jar="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf">
-        <dex dex="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.8.2_a3c930bd365b08729e0fe9d1cd5d5ae19d356c1c\classes.dex" />
+        sha1="ca1f69798e22c181a2ef581f36515fb8ae092441">
+        <dex dex="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c2cd2431679e66ae01429c68b7f5ffa7177f12f7\classes.dex" />
     </item>
 
 </items>

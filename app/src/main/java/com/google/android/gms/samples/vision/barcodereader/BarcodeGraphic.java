@@ -94,7 +94,7 @@ public class BarcodeGraphic extends GraphicOverlay.Graphic {
             return;
         }
         Paint paint = new Paint();
-        paint.setColor(Color.RED);
+        paint.setColor(Color.GREEN);
         paint.setStrokeWidth(10);
         // Draws the bounding box around the barcode.
         RectF rect = new RectF(barcode.getBoundingBox());
