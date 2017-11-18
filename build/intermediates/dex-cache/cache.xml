@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Виктор\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3\5fc52c41ef0239d1093a1eb7c3697036183677ce\gson-2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.3_4b623155d871ef67beeaa053634deb3db8135ed5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Виктор\.android\build-cache\4cde87393a430811f2f619911c8a2e410afb155d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0772eec11be9e3803736882ae4bec4078986910e">
+        <dex dex="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ad88150a652e66526bf4f7b83229b6758fa43418\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Виктор\.android\build-cache\145eeedba32a03ba23ab0a8598db2222769fcabe\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="05e8375b2ec26e4508b2a745d5a0623ba95f9b49">
+        <dex dex="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b50bf6fda273489f8e7a522c4a69299aefdc20a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ca1f69798e22c181a2ef581f36515fb8ae092441">
+        <dex dex="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c2cd2431679e66ae01429c68b7f5ffa7177f12f7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_70933e3760b65824adc90e96d56827bca57fb8b3\classes.dex" />
+    </item>
+
+</items>
