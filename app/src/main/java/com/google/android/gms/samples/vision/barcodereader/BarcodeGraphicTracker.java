@@ -23,6 +23,12 @@ import com.google.android.gms.vision.Detector;
 import com.google.android.gms.vision.Tracker;
 import com.google.android.gms.vision.barcode.Barcode;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.IOException;
+import java.util.Iterator;
+
 /**
  * Generic tracker which is used for tracking or reading a barcode (and can really be used for
  * any type of item).  This is used to receive newly detected items, add a graphical representation
@@ -70,7 +76,15 @@ public class BarcodeGraphicTracker extends Tracker<Barcode> {
     @Override
     public void onUpdate(Detector.Detections<Barcode> detectionResults, Barcode item) {
         mOverlay.add(mGraphic);
-        mGraphic.updateItem(item);
+        Server server = new Server(item.rawValue);
+        JSONObject info;
+        try {
+            info =  server.GetData();
+            mGraphic.updateItem(item, info);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
     }
 
     /**

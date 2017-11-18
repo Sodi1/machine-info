@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Nov 18 07:36:54 MSK 2017
+#Sat Nov 18 09:07:52 MSK 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=C\:\\android-vision\\visionSamples\\barcode-reader\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v23\\abc_tint_default.xml

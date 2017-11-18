@@ -1,4 +1,4 @@
-#Sat Nov 18 07:37:06 MSK 2017
+#Sat Nov 18 09:07:59 MSK 2017
 base.0=C\:\\android-vision\\visionSamples\\barcode-reader\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_70933e3760b65824adc90e96d56827bca57fb8b3
 renamed.1=classes2.dex
 renamed.0=classes.dex

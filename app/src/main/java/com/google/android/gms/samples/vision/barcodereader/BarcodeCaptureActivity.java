@@ -432,15 +432,6 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
 
     @Override
     public void onBarcodeDetected(Barcode barcode) {
-        //do something with barcode data returned
-        Context context = getApplicationContext();
-        TextView textView = (TextView)findViewById(R.id.textView);
-        textView.setText("detecterd");
-        setdata = new SetData(textView, context);
-        if (!setdata.execute) {
-            setdata.execute();
-            setdata.execute = true;
-        }
 
     }
 }

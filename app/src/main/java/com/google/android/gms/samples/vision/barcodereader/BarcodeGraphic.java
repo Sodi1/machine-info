@@ -23,6 +23,11 @@ import android.graphics.RectF;
 import com.google.android.gms.samples.vision.barcodereader.ui.camera.GraphicOverlay;
 import com.google.android.gms.vision.barcode.Barcode;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.Iterator;
+
 /**
  * Graphic instance for rendering barcode position, size, and ID within an associated graphic
  * overlay view.
@@ -30,11 +35,9 @@ import com.google.android.gms.vision.barcode.Barcode;
 public class BarcodeGraphic extends GraphicOverlay.Graphic {
 
     private int mId;
-
+    public JSONObject info;
     private static final int COLOR_CHOICES[] = {
-            Color.BLUE,
-            Color.CYAN,
-            Color.GREEN
+            Color.BLUE
     };
 
     private static int mCurrentColorIndex = 0;
@@ -75,8 +78,9 @@ public class BarcodeGraphic extends GraphicOverlay.Graphic {
      * Updates the barcode instance from the detection of the most recent frame.  Invalidates the
      * relevant portions of the overlay to trigger a redraw.
      */
-    void updateItem(Barcode barcode) {
+    void updateItem(Barcode barcode,JSONObject info) {
         mBarcode = barcode;
+        this.info = info;
         postInvalidate();
     }
 
@@ -84,13 +88,14 @@ public class BarcodeGraphic extends GraphicOverlay.Graphic {
      * Draws the barcode annotations for position, size, and raw value on the supplied canvas.
      */
     @Override
-    public void draw(Canvas canvas) {
+    public void draw(Canvas canvas) throws JSONException {
         Barcode barcode = mBarcode;
         if (barcode == null) {
             return;
         }
         Paint paint = new Paint();
         paint.setColor(Color.RED);
+        paint.setStrokeWidth(10);
         // Draws the bounding box around the barcode.
         RectF rect = new RectF(barcode.getBoundingBox());
         rect.left = translateX(rect.left);
@@ -98,8 +103,30 @@ public class BarcodeGraphic extends GraphicOverlay.Graphic {
         rect.right = translateX(rect.right);
         rect.bottom = translateY(rect.bottom);
         canvas.drawRect(rect, mRectPaint);
-        canvas.drawLine(rect.right,rect.top,rect.right + 100,rect.top -130,paint);
+
+        float[] line1 = {rect.left,rect.bottom,rect.left - 25,rect.bottom + 50,-150,rect.left - 25 -150 };
+        float[] line2 = {rect.left,rect.top,rect.left - 25,rect.top - 25,-150,rect.left - 25 -150};
+        float[] line3 = {rect.right,rect.top,rect.right + 25,rect.top -25,+150,rect.right + 25};
+        float[] line4 = {rect.right,rect.bottom,rect.right + 25,rect.bottom +25,+150,rect.right + 25};
+        float[] line5 = {rect.left,rect.top - ((rect.top - rect.bottom)/2) ,rect.left - 25,rect.top - ((rect.top - rect.bottom)/2) - 25,-150,rect.left - 25 -150};
+        float[] line6 = {rect.right,rect.top - ((rect.top - rect.bottom)/2) ,rect.right - 25,rect.top - ((rect.top - rect.bottom)/2),+150,rect.right + 25 };
+        float[][] lines = {line1,line2,line3,line4,line5,line6};
+
+        String key;
+        String value;
+        Iterator<String> itr;
+        itr = info.keys();
+        int i =0;
+        while(itr.hasNext()){
+            key = itr.next().toString();
+            value = info.getString(key);
+            canvas.drawLine(lines[i][0],lines[i][1],lines[i][2],lines[i][3],paint);
+            canvas.drawLine(lines[i][2],lines[i][3],lines[i][2] + lines[i][4] ,lines[i][3],paint);
+            canvas.drawText(key + ": " + value,lines[i][5], lines[i][3] - 10, mTextPaint);
+            i++;
+        }
         // Draws a label at the bottom of the barcode indicate the barcode value that was detected.
-        canvas.drawText(barcode.rawValue, rect.left, rect.bottom, mTextPaint);
+//        canvas.drawText(barcode.rawValue, rect.left, rect.bottom, mTextPaint);
     }
+
 }

@@ -22,6 +22,8 @@ import android.view.View;
 
 import com.google.android.gms.vision.CameraSource;
 
+import org.json.JSONException;
+
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -78,7 +80,7 @@ public class GraphicOverlay<T extends GraphicOverlay.Graphic> extends View {
          *
          * @param canvas drawing canvas
          */
-        public abstract void draw(Canvas canvas);
+        public abstract void draw(Canvas canvas) throws JSONException;
 
         /**
          * Adjusts a horizontal value of the supplied value from the preview scale to the view
@@ -205,7 +207,11 @@ public class GraphicOverlay<T extends GraphicOverlay.Graphic> extends View {
             }
 
             for (Graphic graphic : mGraphics) {
-                graphic.draw(canvas);
+                try {
+                    graphic.draw(canvas);
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
             }
         }
     }
