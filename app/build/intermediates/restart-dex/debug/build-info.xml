@@ -6,25 +6,31 @@
     density="mdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1511008263898"
+    timestamp="1511010116553"
     token="-5460942412002187004"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="488" />
+        duration="1736" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="29" />
+        duration="169" />
     <task
         name="verifier"
-        duration="6" />
+        duration="69" />
 
     <artifact
         location="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
     <artifact
         location="C:\android-vision\visionSamples\barcode-reader\app\build\outputs\apk\app-debug.apk"
@@ -81,18 +87,16 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1511008102922"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\android-vision\visionSamples\barcode-reader\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1511008263898"
+        timestamp="1511010116553"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
             location="C:\android-vision\visionSamples\barcode-reader\app\build\outputs\apk\app-debug.apk"

@@ -31,6 +31,7 @@ public class Server {
         String url = this.url;
         StringBuffer response = new StringBuffer();
         JSONObject responseJson;
+
         try {
             URL obj = new URL(url);
             HttpURLConnection connection = (HttpURLConnection) obj.openConnection();

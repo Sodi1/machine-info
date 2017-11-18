@@ -17,26 +17,6 @@
         android:id="@+id/graphicOverlay"
         android:layout_width="557dp"
         android:layout_height="321dp" />
-    <TextView
-      android:id="@+id/speed"
-      android:layout_width="595dp"
-      android:layout_height="wrap_content"
-      android:text="TextView" />
-    <TextView
-        android:id="@+id/position"
-        android:layout_width="595dp"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
-    <TextView
-        android:id="@+id/tool"
-        android:layout_width="595dp"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
-    <TextView
-        android:id="@+id/plc"
-        android:layout_width="595dp"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
 
   </com.google.android.gms.samples.vision.barcodereader.ui.camera.CameraSourcePreview>
 
