@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\android-vision\\visionSamples\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
-        "source": "C:\\android-vision\\visionSamples\\barcode-reader\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+        "merged": "/home/viktor/MachineInfo/android/machine-info/C:\\android-vision\\visionSamples\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
+        "source": "/home/viktor/MachineInfo/android/machine-info/C:\\android-vision\\visionSamples\\barcode-reader\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/drawable-hdpi/icon.png",
+        "source": "/home/viktor/MachineInfo/android/machine-info/app/src/main/res/drawable-hdpi/icon.png"
     }
 ]

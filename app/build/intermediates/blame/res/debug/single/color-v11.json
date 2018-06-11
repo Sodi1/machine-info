@@ -1,10 +1,18 @@
 [
     {
-        "merged": "C:\\android-vision\\visionSamples\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "C:\\Users\\Виктор\\.android\\build-cache\\45489f0789447c6895d1aa261c689d1d120ad72c\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/viktor/.android/build-cache/bc0566354cd7b2f8eeaa268f4b7aa0ad5d4ea16e/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "C:\\android-vision\\visionSamples\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "C:\\Users\\Виктор\\.android\\build-cache\\45489f0789447c6895d1aa261c689d1d120ad72c\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "/home/viktor/MachineInfo/android/machine-info/C:\\android-vision\\visionSamples\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/viktor/MachineInfo/android/machine-info/C:\\Users\\Виктор\\.android\\build-cache\\45489f0789447c6895d1aa261c689d1d120ad72c\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/viktor/.android/build-cache/bc0566354cd7b2f8eeaa268f4b7aa0ad5d4ea16e/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/home/viktor/MachineInfo/android/machine-info/C:\\android-vision\\visionSamples\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/viktor/MachineInfo/android/machine-info/C:\\Users\\Виктор\\.android\\build-cache\\45489f0789447c6895d1aa261c689d1d120ad72c\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     }
 ]

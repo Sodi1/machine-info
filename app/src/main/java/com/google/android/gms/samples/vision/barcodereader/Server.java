@@ -22,7 +22,8 @@ import java.util.Iterator;
  */
 
 public class Server {
-    String url = "";
+    String url = "http://192.168.0.41:8080/notes/2";
+    String ur = "http://192.168.0.41:8080/notes/2";
     public Server(String url) {
         this.url = url;
     }

@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\android-vision\visionSamples\barcode-reader\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\android-vision\visionSamples\barcode-reader\app\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/viktor/MachineInfo/android/machine-info/app/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/home/viktor/MachineInfo/android/machine-info/app/src/debug/shaders"/></dataSet></merger>
