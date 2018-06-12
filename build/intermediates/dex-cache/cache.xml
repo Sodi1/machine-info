@@ -178,7 +178,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="e810386c32b51fe1793dcd648994c3ec1bbccb5c">
+        sha1="1a71dda7e57b535a949773e31507e7e73e30146c">
         <dex dex="/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_5f746bf6c9f09144b1d6ae63c6ab7cc8fe1b3e5a/classes.dex" />
     </item>
     <item
