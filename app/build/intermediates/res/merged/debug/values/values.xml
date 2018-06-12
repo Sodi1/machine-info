@@ -570,10 +570,9 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
-    <string name="auto_focus">Auto Focus</string>
     <string name="barcode_error">"Error reading barcode: %1$s"</string>
     <string name="barcode_failure">No barcode captured</string>
-    <string name="barcode_header">Click "Read Barcode" to read a barcode</string>
+    <string name="barcode_header">Данное приложение считывает qr код и отображает информацию о технологическом оборудовании</string>
     <string name="barcode_success">Barcode read successfully</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
@@ -601,11 +600,11 @@
     <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
     <string name="ok">OK</string>
     <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
-    <string name="read_barcode">Read Barcode</string>
+    <string name="read_barcode">Начать</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="title_activity_main">Barcode Reader Sample</string>
-    <string name="use_flash">Use Flash</string>
+    <string name="title_activity_main">Virtual Assistant</string>
+    <string name="title_barcode_capture">"Наведите камеру на QR код"</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

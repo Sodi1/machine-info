@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/home/viktor/MachineInfo/android/machine-info/C:\\android-vision\\visionSamples\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\common_ic_googleplayservices.png",
-        "source": "/home/viktor/MachineInfo/android/machine-info/C:\\Users\\Виктор\\.android\\build-cache\\bf2df63f147ea3e1b5a90aa7647160f3d1398a8a\\output\\res\\drawable-ldpi-v4\\common_ic_googleplayservices.png"
-    },
-    {
         "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/common_ic_googleplayservices.png",
         "source": "/home/viktor/.android/build-cache/b7e4a3c09fe6afc70f3844656860865624a18aff/output/res/drawable-ldpi-v4/common_ic_googleplayservices.png"
     }

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:2:1-39:12
+ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:2:1-40:12
 	package
 		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:3:5-66
 		INJECTED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml
@@ -19,12 +19,16 @@ uses-feature#android.hardware.camera
 ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:6:5-60
 	android:name
 		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:6:19-57
-uses-permission#android.permission.CAMERA
-ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:8:5-65
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:8:5-76
 	android:name
-		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:8:22-62
+		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:8:22-73
+uses-permission#android.permission.CAMERA
+ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:9:22-62
 application
-ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:10:5-37:19
+ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:11:5-38:19
 MERGED from [com.google.android.gms:play-services-vision:9.4.0] /home/viktor/.android/build-cache/391d8ae293a85b2d07785a748a4428f7de1daa2a/output/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-base:9.4.0] /home/viktor/.android/build-cache/b7e4a3c09fe6afc70f3844656860865624a18aff/output/AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /home/viktor/.android/build-cache/493f661532292f38f7eb8f716d76dac8e32e1b1a/output/AndroidManifest.xml:5:5-20
@@ -42,54 +46,54 @@ MERGED from [com.android.support:support-compat:24.2.0] /home/viktor/.android/bu
 MERGED from [com.koushikdutta.ion:ion:2.2.1] /home/viktor/.android/build-cache/baad0b9f0a8a67df05ea9cdaba400e39d08932cc/output/AndroidManifest.xml:13:5-14:19
 MERGED from [com.koushikdutta.async:androidasync:2.2.1] /home/viktor/.android/build-cache/888c800ccbf5aa07ead05ffb2616b0773282ca83/output/AndroidManifest.xml:13:5-14:19
 	android:label
-		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:15:9-40
+		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:16:9-40
 	android:supportsRtl
-		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:16:9-37
+		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:17:9-37
 	android:hardwareAccelerated
-		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:13:9-43
+		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:14:9-43
 	android:fullBackupContent
-		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:12:9-42
+		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:13:9-42
 	android:allowBackup
-		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:12:9-35
 	android:icon
-		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:14:9-38
+		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:15:9-38
 	android:theme
-		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:17:9-47
+		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:18:9-47
 meta-data#com.google.android.gms.version
-ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:18:9-20:69
+ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:19:9-21:69
 MERGED from [com.google.android.gms:play-services-basement:9.4.0] /home/viktor/.android/build-cache/62573695286378e19769aa0d99c96bdc7a064c5d/output/AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:20:13-66
+		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:21:13-66
 	android:name
-		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:19:13-58
+		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:20:13-58
 meta-data#com.google.android.gms.vision.DEPENDENCIES
-ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:21:9-23:39
+ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:22:9-24:39
 	android:value
-		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:23:13-36
+		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:24:13-36
 	android:name
-		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:22:13-70
+		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:23:13-70
 activity#com.google.android.gms.samples.vision.barcodereader.MainActivity
-ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:25:9-33:20
+ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:26:9-34:20
 	android:label
-		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:27:13-56
+		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:28:13-56
 	android:name
-		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:26:13-41
+		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:27:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:28:13-32:29
+ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:29:13-33:29
 action#android.intent.action.MAIN
-ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:29:17-69
+ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:30:17-69
 	android:name
-		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:29:25-66
+		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:30:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:31:17-77
+ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:32:17-77
 	android:name
-		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:31:27-74
+		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:32:27-74
 activity#com.google.android.gms.samples.vision.barcodereader.BarcodeCaptureActivity
-ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:35:9-36:43
+ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:36:9-37:60
 	android:label
-		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:36:13-41
+		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:37:13-58
 	android:name
-		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:35:19-57
+		ADDED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml:36:19-57
 uses-sdk
 INJECTED from /home/viktor/MachineInfo/android/machine-info/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.android.gms:play-services-vision:9.4.0] /home/viktor/.android/build-cache/391d8ae293a85b2d07785a748a4428f7de1daa2a/output/AndroidManifest.xml:4:5-42

@@ -23,9 +23,17 @@ import android.util.Log;
 import android.view.View;
 import android.widget.CompoundButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.common.api.CommonStatusCodes;
 import com.google.android.gms.vision.barcode.Barcode;
+
+import java.io.IOException;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+
+import static android.content.ContentValues.TAG;
 
 /**
  * Main activity demonstrating how to pass extra parameters to an activity that
@@ -35,8 +43,6 @@ import com.google.android.gms.vision.barcode.Barcode;
 public class MainActivity extends Activity implements View.OnClickListener {
 
     // use a compound button so either checkbox or switch widgets work.
-    private CompoundButton autoFocus;
-    private CompoundButton useFlash;
     private TextView statusMessage;
     private TextView barcodeValue;
 
@@ -51,10 +57,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
         statusMessage = (TextView)findViewById(R.id.status_message);
         barcodeValue = (TextView)findViewById(R.id.barcode_value);
 
-        autoFocus = (CompoundButton) findViewById(R.id.auto_focus);
-        useFlash = (CompoundButton) findViewById(R.id.use_flash);
-
         findViewById(R.id.read_barcode).setOnClickListener(this);
+
+        Pinger p = new Pinger();
+        p.start();
 
     }
 
@@ -68,9 +74,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
         if (v.getId() == R.id.read_barcode) {
             // launch barcode activity.
             Intent intent = new Intent(this, BarcodeCaptureActivity.class);
-            intent.putExtra(BarcodeCaptureActivity.AutoFocus, autoFocus.isChecked());
-            intent.putExtra(BarcodeCaptureActivity.UseFlash, useFlash.isChecked());
-
+            intent.putExtra(BarcodeCaptureActivity.AutoFocus, true);
+//            intent.putExtra(BarcodeCaptureActivity.UseFlash, useFlash.isChecked());
+            if (Server.ipServer.equals("")){
+                Toast toast = Toast.makeText(getApplicationContext(),
+                        "Сервер не найден!!!!", Toast.LENGTH_SHORT);
+                toast.show();
+                return;
+            }
             startActivityForResult(intent, RC_BARCODE_CAPTURE);
         }
 
@@ -118,6 +129,47 @@ public class MainActivity extends Activity implements View.OnClickListener {
         }
         else {
             super.onActivityResult(requestCode, resultCode, data);
+        }
+    }
+/*
+ * Работает в отдельнои потоке, шлёт udp запросы и ищет сервер данных,
+ * получив ответ записывает ip сервера в статик поле класса Server
+ */
+
+    private class Pinger extends Thread {
+        private boolean running;
+        UDPHelper udp;
+        @Override
+        public void run() {
+            try {
+                udp = new UDPHelper(getApplicationContext(), new UDPHelper.BroadcastListener() {
+                    @Override
+                    public void onReceive(String msg, String ip) {
+                        Log.v(TAG, "receive message "+msg+" from "+ip);
+                        if (msg.equals("is machine info server")){
+                            Server.ipServer = ip;
+                            end();
+                        }
+                    }
+
+                });
+                udp.start();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            running = true;
+            while (running) {
+                try {
+                    udp.send("!PING!");
+                    sleep(1000);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        public void end() {
+            running = false;
+            udp.end();
         }
     }
 }

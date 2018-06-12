@@ -60,7 +60,6 @@ import java.io.IOException;
  */
 public final class BarcodeCaptureActivity extends AppCompatActivity implements BarcodeGraphicTracker.BarcodeUpdateListener {
     private static final String TAG = "Barcode-reader";
-    SetData setdata;
     // intent request code to handle updating play services if needed.
     private static final int RC_HANDLE_GMS = 9001;
 
@@ -147,11 +146,12 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
 
     @Override
     public boolean onTouchEvent(MotionEvent e) {
-        boolean b = scaleGestureDetector.onTouchEvent(e);
+//        boolean b = scaleGestureDetector.onTouchEvent(e);
 
-        boolean c = gestureDetector.onTouchEvent(e);
+//        boolean c = gestureDetector.onTouchEvent(e);
 
-        return b || c || super.onTouchEvent(e);
+//        return b || c || super.onTouchEvent(e);
+        return false;
     }
 
     /**

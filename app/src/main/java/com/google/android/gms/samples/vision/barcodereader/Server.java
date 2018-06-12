@@ -19,13 +19,17 @@ import java.util.Iterator;
 
 /**
  * Created by Виктор on 14.11.2017.
+ * Делает запрос к серверу
+ * конструктор принимает id оборудования
  */
-
 public class Server {
-    String url = "http://192.168.0.41:8080/notes/2";
-    String ur = "http://192.168.0.41:8080/notes/2";
-    public Server(String url) {
-        this.url = url;
+    static String ipServer = "";
+    private final String protocol = "http://";
+    private final String portServer = ":8080";
+    private final String apiServerGet = "/get/";
+    private String url = "";
+    public Server(String id) {
+        this.url = protocol + ipServer+ portServer + apiServerGet + id ;
     }
 
     public JSONObject GetData() throws JSONException {
@@ -56,19 +60,4 @@ public class Server {
             int i =0;
             return  obj;
     }
-
-
-//    public void getProject() {
-//        Ion.with(context)
-//                .load("")
-//                .asString()
-//                .setCallback(new FutureCallback<String>() {
-//                    @Override
-//                    public void onCompleted(Exception e, String result) {
-//                        speed.setText(result);
-//                    }
-//                });
-//    }
-
-
 }

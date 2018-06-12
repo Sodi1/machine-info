@@ -2,49 +2,202 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\Виктор\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.2\3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf\gson-2.8.2.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/viktor/.android/build-cache/1bfdee62cb755c4d99f4ef102d20174a34626ebd/output/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf">
-        <dex dex="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\pre-dexed\debug\gson-2.8.2_a3c930bd365b08729e0fe9d1cd5d5ae19d356c1c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Виктор\.android\build-cache\145eeedba32a03ba23ab0a8598db2222769fcabe\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="05e8375b2ec26e4508b2a745d5a0623ba95f9b49">
-        <dex dex="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\pre-dexed\debug\classes_b50bf6fda273489f8e7a522c4a69299aefdc20a1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Виктор\.android\build-cache\4cde87393a430811f2f619911c8a2e410afb155d\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0772eec11be9e3803736882ae4bec4078986910e">
-        <dex dex="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\pre-dexed\debug\classes_ad88150a652e66526bf4f7b83229b6758fa43418.jar" />
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_b8d23982c009cde23fbebd4d0b1495a5d1b3f49f/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="/home/viktor/.android/build-cache/da50aaa26c90f946452df7b96dc8a3b50ada80f6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1e1f736e3ffc7a53c0adf15c39aaae863b9e1954/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/viktor/.android/build-cache/62573695286378e19769aa0d99c96bdc7a064c5d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c8ec085ccd64810605fd9e886dd86fad267834fa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/viktor/.android/build-cache/048a157ac71a4131149ee2da56e89809a12a13bc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_82e8dea200644797fbeda2b291d6c792be1a8334/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/viktor/.android/build-cache/5f5866102f74152679c0f8f0c5db4997dbe1accf/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_335469f516e71d0f0208c6f886f6dbf3ade6eb8e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/viktor/.android/build-cache/17558661693c74adfa9d06849625297a53c435c5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d52ba2616618ac314de8040a915253a97b02b193/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/viktor/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_5d823d845ad07f576c4c678acffbbdbffdb7dbee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_70933e3760b65824adc90e96d56827bca57fb8b3\classes.dex" />
+        <dex dex="/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_95d263a2bb6d2c6cba4757ce33bb17f7e1a4c722/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="/home/viktor/.android/build-cache/f72960dcaa7fe1a2bfd75fc4af273aed815f64d1/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="ca1f69798e22c181a2ef581f36515fb8ae092441">
-        <dex dex="C:\android-vision\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c2cd2431679e66ae01429c68b7f5ffa7177f12f7\classes.dex" />
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fc886fd6474db2ac080cfb202fb722fb03dd740c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/viktor/.android/build-cache/da50aaa26c90f946452df7b96dc8a3b50ada80f6/output/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_ad30c0c272b2030de78fafe0606fd0dfd61940aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/viktor/.android/build-cache/bc0566354cd7b2f8eeaa268f4b7aa0ad5d4ea16e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_06c9cf76b0da20e05a2a2fdbf09f53403841e23b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/viktor/.android/build-cache/048a157ac71a4131149ee2da56e89809a12a13bc/output/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_238e9980ae026f78420274af53ad814422bc6163/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/viktor/.android/build-cache/493f661532292f38f7eb8f716d76dac8e32e1b1a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9906af4587638aa4b92f3ae85b35e159419bbd19/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/viktor/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.2/3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf/gson-2.8.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf">
+        <dex dex="/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.8.2_a0e514e1903c503e6563b70bd8db2657e64a87a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/viktor/.android/build-cache/9b63a6bcb339c2755e0e83c89a23095468fc0447/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dabb03f93cbae74953b94b1808d26ab8716ec434/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/viktor/.android/build-cache/966a1777c40d380b10bff1420bce382b8cbca1e9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_03acbc74ad723ef410503f6da7f633bb359a1057/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/viktor/.android/build-cache/888c800ccbf5aa07ead05ffb2616b0773282ca83/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0772eec11be9e3803736882ae4bec4078986910e">
+        <dex dex="/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dee75f14387ce33c823c75bbf3060db1a5766e82/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/viktor/.android/build-cache/1bfdee62cb755c4d99f4ef102d20174a34626ebd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_57fb6d5f3fab4beee6f4c390f2302d70bb556757/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/viktor/.android/build-cache/94015cae3fbcf18e8fc56a2293d8089fd42c57ab/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_344a65d4e68633ce2e8e0d9a6d16ab495b56020a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e810386c32b51fe1793dcd648994c3ec1bbccb5c">
+        <dex dex="/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_5f746bf6c9f09144b1d6ae63c6ab7cc8fe1b3e5a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/viktor/.android/build-cache/796688b537f820aae955464a6c6f2606c6f4eb2c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_20db185dcf689a72b0eeb4d1bf0bcc12c4d631bb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/viktor/.android/build-cache/baad0b9f0a8a67df05ea9cdaba400e39d08932cc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="05e8375b2ec26e4508b2a745d5a0623ba95f9b49">
+        <dex dex="/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7e2ad21ec85791812212ead060121861987382c2/classes.dex" />
     </item>
 
 </items>
