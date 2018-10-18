@@ -16,11 +16,15 @@
 
 package com.google.android.gms.samples.vision.barcodereader;
 
+import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.app.Activity;
+import android.os.Environment;
 import android.util.Log;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.CompoundButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -28,6 +32,8 @@ import android.widget.Toast;
 import com.google.android.gms.common.api.CommonStatusCodes;
 import com.google.android.gms.vision.barcode.Barcode;
 
+import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Collections;
 import java.util.LinkedList;
@@ -40,7 +46,11 @@ import static android.content.ContentValues.TAG;
  * reads barcodes.
  */
 
+
 public class MainActivity extends Activity implements View.OnClickListener {
+    public static class Global {
+        public static Context context;
+    }
 
     // use a compound button so either checkbox or switch widgets work.
     private TextView statusMessage;
@@ -52,8 +62,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Global.context =  getApplicationContext();
         setContentView(R.layout.activity_main);
-
         statusMessage = (TextView)findViewById(R.id.status_message);
         barcodeValue = (TextView)findViewById(R.id.barcode_value);
 
@@ -172,4 +182,31 @@ public class MainActivity extends Activity implements View.OnClickListener {
             udp.end();
         }
     }
+
+    private String sPathToTmpPdf = "/";
+
+
+    private class PdfShow extends Thread{
+        @Override
+        public void run () {
+            try {
+                showClickPdf("asd");
+            }catch (Exception e) {
+                System.out.println(e.getCause().getMessage());
+            }
+        }
+                /**
+             *
+             */
+        private void showClickPdf(final String id) {
+        System.out.println("start showClickPdf");
+                Server server = new Server(id);
+                server.setsPathToPdf(sPathToTmpPdf);
+                final Boolean sResultGetPdf = server.getPdfFile("http://192.168.150.107:8080/pdf/12.pdf");
+                if (sResultGetPdf) {
+                    server.removeTempPdf(sPathToTmpPdf);
+                    System.out.println("Success getPdfToUrl");
+                }
+            }
+        }
 }

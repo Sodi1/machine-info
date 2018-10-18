@@ -1,94 +1,94 @@
 [
     {
-        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/color/design_error.xml",
-        "source": "/home/viktor/.android/build-cache/966a1777c40d380b10bff1420bce382b8cbca1e9/output/res/color/design_error.xml"
+        "merged": "/home/viktor/univer/machine-info/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/home/viktor/.android/build-cache/f53bb60d2c704b8a1bf0c6e4dbee0240dd79a3fa/output/res/color/switch_thumb_material_light.xml"
     },
     {
-        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
-        "source": "/home/viktor/.android/build-cache/bc0566354cd7b2f8eeaa268f4b7aa0ad5d4ea16e/output/res/color/abc_tint_seek_thumb.xml"
+        "merged": "/home/viktor/univer/machine-info/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
+        "source": "/home/viktor/.android/build-cache/c109a05242d796c186952f629929296c80de5b43/output/res/color/design_tint_password_toggle.xml"
     },
     {
-        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
-        "source": "/home/viktor/.android/build-cache/bc0566354cd7b2f8eeaa268f4b7aa0ad5d4ea16e/output/res/color/abc_tint_default.xml"
+        "merged": "/home/viktor/univer/machine-info/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
+        "source": "/home/viktor/.android/build-cache/f53bb60d2c704b8a1bf0c6e4dbee0240dd79a3fa/output/res/color/abc_tint_spinner.xml"
     },
     {
-        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
-        "source": "/home/viktor/.android/build-cache/bc0566354cd7b2f8eeaa268f4b7aa0ad5d4ea16e/output/res/color/abc_tint_switch_thumb.xml"
+        "merged": "/home/viktor/univer/machine-info/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/home/viktor/.android/build-cache/f53bb60d2c704b8a1bf0c6e4dbee0240dd79a3fa/output/res/color/abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
-        "source": "/home/viktor/.android/build-cache/bc0566354cd7b2f8eeaa268f4b7aa0ad5d4ea16e/output/res/color/abc_primary_text_material_light.xml"
+        "merged": "/home/viktor/univer/machine-info/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/home/viktor/.android/build-cache/f53bb60d2c704b8a1bf0c6e4dbee0240dd79a3fa/output/res/color/abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
-        "source": "/home/viktor/.android/build-cache/bc0566354cd7b2f8eeaa268f4b7aa0ad5d4ea16e/output/res/color/abc_primary_text_disable_only_material_light.xml"
+        "merged": "/home/viktor/univer/machine-info/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/home/viktor/.android/build-cache/f53bb60d2c704b8a1bf0c6e4dbee0240dd79a3fa/output/res/color/abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
-        "source": "/home/viktor/.android/build-cache/bc0566354cd7b2f8eeaa268f4b7aa0ad5d4ea16e/output/res/color/switch_thumb_material_dark.xml"
+        "merged": "/home/viktor/univer/machine-info/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/home/viktor/.android/build-cache/f53bb60d2c704b8a1bf0c6e4dbee0240dd79a3fa/output/res/color/abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
-        "source": "/home/viktor/.android/build-cache/bc0566354cd7b2f8eeaa268f4b7aa0ad5d4ea16e/output/res/color/abc_tint_switch_track.xml"
+        "merged": "/home/viktor/univer/machine-info/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/home/viktor/.android/build-cache/f53bb60d2c704b8a1bf0c6e4dbee0240dd79a3fa/output/res/color/abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
-        "source": "/home/viktor/.android/build-cache/bc0566354cd7b2f8eeaa268f4b7aa0ad5d4ea16e/output/res/color/abc_search_url_text.xml"
+        "merged": "/home/viktor/univer/machine-info/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/viktor/.android/build-cache/8b1ccf6a937fc22bb46350d3e022b736bc5a675b/output/res/color/common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
-        "source": "/home/viktor/.android/build-cache/bc0566354cd7b2f8eeaa268f4b7aa0ad5d4ea16e/output/res/color/abc_btn_colored_borderless_text_material.xml"
+        "merged": "/home/viktor/univer/machine-info/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/home/viktor/.android/build-cache/f53bb60d2c704b8a1bf0c6e4dbee0240dd79a3fa/output/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
-        "source": "/home/viktor/.android/build-cache/b7e4a3c09fe6afc70f3844656860865624a18aff/output/res/color/common_google_signin_btn_text_light.xml"
+        "merged": "/home/viktor/univer/machine-info/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/home/viktor/.android/build-cache/f53bb60d2c704b8a1bf0c6e4dbee0240dd79a3fa/output/res/color/abc_primary_text_material_light.xml"
     },
     {
-        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
-        "source": "/home/viktor/.android/build-cache/b7e4a3c09fe6afc70f3844656860865624a18aff/output/res/color/common_google_signin_btn_text_dark.xml"
+        "merged": "/home/viktor/univer/machine-info/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_dark.xml",
+        "source": "/home/viktor/.android/build-cache/8b1ccf6a937fc22bb46350d3e022b736bc5a675b/output/res/color/common_plus_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
-        "source": "/home/viktor/.android/build-cache/bc0566354cd7b2f8eeaa268f4b7aa0ad5d4ea16e/output/res/color/abc_secondary_text_material_light.xml"
+        "merged": "/home/viktor/univer/machine-info/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/home/viktor/.android/build-cache/f53bb60d2c704b8a1bf0c6e4dbee0240dd79a3fa/output/res/color/abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
-        "source": "/home/viktor/.android/build-cache/bc0566354cd7b2f8eeaa268f4b7aa0ad5d4ea16e/output/res/color/abc_tint_spinner.xml"
+        "merged": "/home/viktor/univer/machine-info/app/build/intermediates/res/merged/debug/color/design_error.xml",
+        "source": "/home/viktor/.android/build-cache/c109a05242d796c186952f629929296c80de5b43/output/res/color/design_error.xml"
     },
     {
-        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
-        "source": "/home/viktor/.android/build-cache/bc0566354cd7b2f8eeaa268f4b7aa0ad5d4ea16e/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+        "merged": "/home/viktor/univer/machine-info/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/home/viktor/.android/build-cache/f53bb60d2c704b8a1bf0c6e4dbee0240dd79a3fa/output/res/color/switch_thumb_material_dark.xml"
     },
     {
-        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
-        "source": "/home/viktor/.android/build-cache/bc0566354cd7b2f8eeaa268f4b7aa0ad5d4ea16e/output/res/color/abc_tint_btn_checkable.xml"
+        "merged": "/home/viktor/univer/machine-info/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/home/viktor/.android/build-cache/8b1ccf6a937fc22bb46350d3e022b736bc5a675b/output/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_dark.xml",
-        "source": "/home/viktor/.android/build-cache/b7e4a3c09fe6afc70f3844656860865624a18aff/output/res/color/common_plus_signin_btn_text_dark.xml"
+        "merged": "/home/viktor/univer/machine-info/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/viktor/.android/build-cache/f53bb60d2c704b8a1bf0c6e4dbee0240dd79a3fa/output/res/color/abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_light.xml",
-        "source": "/home/viktor/.android/build-cache/b7e4a3c09fe6afc70f3844656860865624a18aff/output/res/color/common_plus_signin_btn_text_light.xml"
+        "merged": "/home/viktor/univer/machine-info/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/home/viktor/.android/build-cache/f53bb60d2c704b8a1bf0c6e4dbee0240dd79a3fa/output/res/color/abc_search_url_text.xml"
     },
     {
-        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
-        "source": "/home/viktor/.android/build-cache/966a1777c40d380b10bff1420bce382b8cbca1e9/output/res/color/design_tint_password_toggle.xml"
+        "merged": "/home/viktor/univer/machine-info/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
+        "source": "/home/viktor/.android/build-cache/f53bb60d2c704b8a1bf0c6e4dbee0240dd79a3fa/output/res/color/abc_tint_edittext.xml"
     },
     {
-        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
-        "source": "/home/viktor/.android/build-cache/bc0566354cd7b2f8eeaa268f4b7aa0ad5d4ea16e/output/res/color/switch_thumb_material_light.xml"
+        "merged": "/home/viktor/univer/machine-info/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
+        "source": "/home/viktor/.android/build-cache/f53bb60d2c704b8a1bf0c6e4dbee0240dd79a3fa/output/res/color/abc_tint_switch_track.xml"
     },
     {
-        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
-        "source": "/home/viktor/.android/build-cache/bc0566354cd7b2f8eeaa268f4b7aa0ad5d4ea16e/output/res/color/abc_secondary_text_material_dark.xml"
+        "merged": "/home/viktor/univer/machine-info/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
+        "source": "/home/viktor/.android/build-cache/f53bb60d2c704b8a1bf0c6e4dbee0240dd79a3fa/output/res/color/abc_tint_default.xml"
     },
     {
-        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
-        "source": "/home/viktor/.android/build-cache/bc0566354cd7b2f8eeaa268f4b7aa0ad5d4ea16e/output/res/color/abc_primary_text_material_dark.xml"
+        "merged": "/home/viktor/univer/machine-info/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_light.xml",
+        "source": "/home/viktor/.android/build-cache/8b1ccf6a937fc22bb46350d3e022b736bc5a675b/output/res/color/common_plus_signin_btn_text_light.xml"
     },
     {
-        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
-        "source": "/home/viktor/.android/build-cache/bc0566354cd7b2f8eeaa268f4b7aa0ad5d4ea16e/output/res/color/abc_tint_edittext.xml"
+        "merged": "/home/viktor/univer/machine-info/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/home/viktor/.android/build-cache/f53bb60d2c704b8a1bf0c6e4dbee0240dd79a3fa/output/res/color/abc_tint_seek_thumb.xml"
     }
 ]

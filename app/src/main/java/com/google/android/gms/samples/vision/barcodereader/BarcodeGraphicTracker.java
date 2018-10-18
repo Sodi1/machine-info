@@ -15,7 +15,10 @@
  */
 package com.google.android.gms.samples.vision.barcodereader;
 
+import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.support.annotation.UiThread;
 
 import com.google.android.gms.samples.vision.barcodereader.ui.camera.GraphicOverlay;
@@ -28,6 +31,8 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 import java.util.Iterator;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Generic tracker which is used for tracking or reading a barcode (and can really be used for
@@ -76,15 +81,22 @@ public class BarcodeGraphicTracker extends Tracker<Barcode> {
     @Override
     public void onUpdate(Detector.Detections<Barcode> detectionResults, Barcode item) {
         mOverlay.add(mGraphic);
-        Server server = new Server(item.rawValue);
-        JSONObject info;
-        try {
-            info =  server.GetData();
-            mGraphic.updateItem(item, info);
-        } catch (JSONException e) {
-            e.printStackTrace();
+        if(item.rawValue == "5137"){
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://tms.ystu.ru/g-kod.pdf"));
+            MainActivity.Global.context.startActivity(browserIntent);
+        }else if (item.rawValue == "8317") {
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.ncsystems.ru/images/ncs_basics/chpuaksiomactrl/about_CNC_Aksioma_CTRL.pdf"));
+            MainActivity.Global.context.startActivity(browserIntent);
+        }else{
+            Server server = new Server(item.rawValue);
+            JSONObject info;
+            try {
+                info = server.GetData();
+                mGraphic.updateItem(item, info);
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
         }
-
     }
 
     /**

@@ -1,14 +1,14 @@
 [
     {
-        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
-        "source": "/home/viktor/.android/build-cache/966a1777c40d380b10bff1420bce382b8cbca1e9/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+        "merged": "/home/viktor/univer/machine-info/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/home/viktor/.android/build-cache/c109a05242d796c186952f629929296c80de5b43/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/anim-v21/design_appbar_state_list_animator.xml",
-        "source": "/home/viktor/.android/build-cache/966a1777c40d380b10bff1420bce382b8cbca1e9/output/res/anim-v21/design_appbar_state_list_animator.xml"
+        "merged": "/home/viktor/univer/machine-info/app/build/intermediates/res/merged/debug/anim-v21/design_appbar_state_list_animator.xml",
+        "source": "/home/viktor/.android/build-cache/c109a05242d796c186952f629929296c80de5b43/output/res/anim-v21/design_appbar_state_list_animator.xml"
     },
     {
-        "merged": "/home/viktor/MachineInfo/android/machine-info/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
-        "source": "/home/viktor/.android/build-cache/966a1777c40d380b10bff1420bce382b8cbca1e9/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+        "merged": "/home/viktor/univer/machine-info/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/home/viktor/.android/build-cache/c109a05242d796c186952f629929296c80de5b43/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
     }
 ]
