@@ -433,6 +433,11 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
 
     @Override
     public void onBarcodeDetected(Barcode barcode) {
-
+        if(barcode.rawValue.indexOf("pdf") != -1){
+            Server s = new Server();
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(s.getPdfUrl(barcode.rawValue)));
+            startActivity(browserIntent);
+            return;
+        }
     }
 }

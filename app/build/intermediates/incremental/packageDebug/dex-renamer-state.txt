@@ -1,4 +1,7 @@
-#Thu Oct 18 11:26:56 MSK 2018
-base.0=/home/viktor/univer/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/home/viktor/univer/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+#Sun Oct 21 14:17:33 MSK 2018
+base.0=/home/viktor/univer/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4a5dfd88f5dd5d20fac718222abbaae5e3407a27
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/viktor/univer/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f6b7c4142a54e83c430d8c05640a2c36568b382c/classes.dex
+base.1=/home/viktor/univer/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f6b7c4142a54e83c430d8c05640a2c36568b382c
+file.0=/home/viktor/univer/machine-info/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4a5dfd88f5dd5d20fac718222abbaae5e3407a27/classes.dex

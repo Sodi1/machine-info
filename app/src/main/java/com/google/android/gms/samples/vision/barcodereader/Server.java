@@ -35,10 +35,19 @@ public class Server {
     private final String protocol = "http://";
     private final String portServer = ":8080";
     private final String apiServerGet = "/get/";
+    private final String apiServerPdf= "/pdf/";
     private String url = "";
     public Server(String id) {
         this.url = protocol + ipServer+ portServer + apiServerGet + id ;
     }
+    public Server() { this.url = null; }
+
+    /**
+     *
+     * @param pdf_path, путь до пдф документа на сервере
+     * @return url до пдф на сервере
+     */
+    public String getPdfUrl(String pdf_path) {return  protocol + ipServer+ portServer +'/'+ pdf_path;}
 
     public JSONObject GetData() throws JSONException {
         String url = this.url;
@@ -61,87 +70,6 @@ public class Server {
         }
         responseJson = jsonParse(response.toString());
         return responseJson ;
-    }
-
-    private static final int  MEGABYTE = 1024 * 1024;
-
-    private  String sPathToPdf;
-
-    /**
-     * Получение pdf по URL
-     * @param fileUrl
-     */
-    public  Boolean getPdfFile(final String fileUrl){
-
-        Boolean resultFlag = false;
-
-        try {
-
-                 File root = new File(Environment.getExternalStorageDirectory(), "Notes");
-                if (!root.exists()) {
-                    root.mkdirs();
-                }
-                FileWriter writer = new FileWriter(root);
-                writer.close();
-
-            final URL url = new URL(fileUrl);
-            final HttpURLConnection urlConnection = (HttpURLConnection)url.openConnection();
-          //  urlConnection.setRequestMethod("GET");
-           // urlConnection.setDoOutput(true);
-            urlConnection.connect();
-
-            final InputStream inputStream = urlConnection.getInputStream();
-            System.out.println("asd");
-            final FileOutputStream fileOutputStream = new FileOutputStream(root); //Путь до pdf
-
-            byte[] buffer = new byte[MEGABYTE];
-
-            int bufferLength = 0;
-
-
-            while((bufferLength = inputStream.read(buffer))>0 ){
-                fileOutputStream.write(buffer, 0, bufferLength);
-            }
-
-            if(bufferLength > 0) {
-                resultFlag = true;
-            }
-
-            fileOutputStream.close();
-
-        } catch (FileNotFoundException e) {
-e.getStackTrace();
-        } catch (MalformedURLException e) {
-e.getStackTrace();
-        } catch (IOException e) {
-e.getStackTrace();        }
-
-        return resultFlag;
-    }
-
-    /**
-     *
-     * @return
-     */
-    public String getpPathToPdf(){
-        return sPathToPdf;
-    }
-
-    /**
-     *
-     * @param pathToPdf
-     */
-    public  void setsPathToPdf(final String pathToPdf){
-        this.sPathToPdf = sPathToPdf;
-    }
-
-    /**
-     *
-     * @param sPath
-     * @return
-     */
-    public Boolean removeTempPdf(final String sPath){
-        return true;
     }
 
     /**

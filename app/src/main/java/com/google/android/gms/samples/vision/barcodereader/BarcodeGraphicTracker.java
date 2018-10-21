@@ -71,6 +71,9 @@ public class BarcodeGraphicTracker extends Tracker<Barcode> {
      */
     @Override
     public void onNewItem(int id, Barcode item) {
+
+
+
         mGraphic.setId(id);
         mBarcodeUpdateListener.onBarcodeDetected(item);
     }
@@ -81,13 +84,6 @@ public class BarcodeGraphicTracker extends Tracker<Barcode> {
     @Override
     public void onUpdate(Detector.Detections<Barcode> detectionResults, Barcode item) {
         mOverlay.add(mGraphic);
-        if(item.rawValue == "5137"){
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://tms.ystu.ru/g-kod.pdf"));
-            MainActivity.Global.context.startActivity(browserIntent);
-        }else if (item.rawValue == "8317") {
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.ncsystems.ru/images/ncs_basics/chpuaksiomactrl/about_CNC_Aksioma_CTRL.pdf"));
-            MainActivity.Global.context.startActivity(browserIntent);
-        }else{
             Server server = new Server(item.rawValue);
             JSONObject info;
             try {
@@ -96,7 +92,6 @@ public class BarcodeGraphicTracker extends Tracker<Barcode> {
             } catch (JSONException e) {
                 e.printStackTrace();
             }
-        }
     }
 
     /**

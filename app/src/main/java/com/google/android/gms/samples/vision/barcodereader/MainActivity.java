@@ -85,7 +85,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
             // launch barcode activity.
             Intent intent = new Intent(this, BarcodeCaptureActivity.class);
             intent.putExtra(BarcodeCaptureActivity.AutoFocus, true);
-//            intent.putExtra(BarcodeCaptureActivity.UseFlash, useFlash.isChecked());
             if (Server.ipServer.equals("")){
                 Toast toast = Toast.makeText(getApplicationContext(),
                         "Сервер не найден!!!!", Toast.LENGTH_SHORT);
@@ -182,31 +181,4 @@ public class MainActivity extends Activity implements View.OnClickListener {
             udp.end();
         }
     }
-
-    private String sPathToTmpPdf = "/";
-
-
-    private class PdfShow extends Thread{
-        @Override
-        public void run () {
-            try {
-                showClickPdf("asd");
-            }catch (Exception e) {
-                System.out.println(e.getCause().getMessage());
-            }
-        }
-                /**
-             *
-             */
-        private void showClickPdf(final String id) {
-        System.out.println("start showClickPdf");
-                Server server = new Server(id);
-                server.setsPathToPdf(sPathToTmpPdf);
-                final Boolean sResultGetPdf = server.getPdfFile("http://192.168.150.107:8080/pdf/12.pdf");
-                if (sResultGetPdf) {
-                    server.removeTempPdf(sPathToTmpPdf);
-                    System.out.println("Success getPdfToUrl");
-                }
-            }
-        }
 }
